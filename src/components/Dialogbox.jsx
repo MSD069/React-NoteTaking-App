@@ -19,7 +19,7 @@ export default function Dialog({ notes, setNotes, setShowDialog }) {
 
     if (isDuplicate) {
       setAlertMessage(
-        "A group with this name already exists. Please choose a different name."
+        "This group name is already in use. Please choose a unique name for your group."
       ); // Trigger alert
       return;
     }
